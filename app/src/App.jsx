@@ -62,3 +62,13 @@ export default App;
 // Countrenderer displays the current count, and Buttons allows you to modify that count.
 // When the count changes, React’s reactivity ensures that the UI reflects the new state seamlessly.
 // This setup allows for an efficient way to manage and share state across components without prop drilling
+
+
+
+
+// **IMP**
+
+// [count, setcount]
+// if you want both of them then use useRecoilState
+// if you want count then use useRecoilValue
+// if you want setCount then use useSetRecoilState
